@@ -6,7 +6,7 @@ class School
     @school = school
     @roster = {}
   end 
-  
+  @roster=["grade"]
 end
 
 
