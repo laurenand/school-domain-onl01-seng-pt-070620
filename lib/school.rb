@@ -11,6 +11,8 @@ class School
   end
   def add_student(student, grade)
     @add_student
+    @roster[grade]=[]
+    @roster[grade]<< student
     binding.pry
   end
 end
