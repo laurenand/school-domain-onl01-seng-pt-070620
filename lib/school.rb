@@ -12,7 +12,7 @@ class School
   def add_student(student, grade)
     @add_student
     @roster[10]=[]
-    @roster[10]<< "#{student.each}"
+    @roster[10]<< "#{student}"
     
   end
   
