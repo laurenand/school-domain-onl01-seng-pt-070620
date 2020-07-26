@@ -13,7 +13,7 @@ class School
     @add_student
     @roster[10]=[]
     @roster[10]<< "#{student}"
-    
+    @roster
   end
   
 end
