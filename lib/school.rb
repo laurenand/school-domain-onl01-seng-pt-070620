@@ -6,7 +6,7 @@ class School
     @school = school
     @roster = {}
   end 
-  @roster<<["10"]=[] 
+  @roster << ["10"] = [] 
   @roster["10"] << "AC Slater"
 end
 
